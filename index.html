@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>About Me</title>
 
 
-    <!--
-        Need header with 3 buttons to link to other pages.
-        Css the buttons
-    -->
-    
-    <style>
-        .header
-        {
-            padding: 80px;
-            background-color:teal;
-            color:white;
-            text-align: center;
-        }
-
-        .navbar 
-        {
-            overflow: hidden;
-            background-color: #333;
-            position: sticky;
-            position: -webkit-sticky;
-            top: 0;
-        }
-
-        .footer 
-        {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color:darkgray;
-            color: white;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <!--
-        Need actual info filled in
-        need css
-        need image
+        <!--
+            Need header with 3 buttons to link to other pages.
+            Css the buttons
+        -->
         
-    -->
+        <style>
+            .name
+            {
+                float: left;
+                width: 33%;
+                color: white;
+                background-color: teal;
+                text-align: center;
+                margin-left: 15%;
 
-    <div class= "header">
-        <h1>About Me</h1>
-    </div>
+            }
 
-    <div class="navbar">
+            .navbar 
+            {
+                width:33%;
+                background-color: white;
+                color: darkgray;
+                float: right;
+                text-align: center;
+                margin-right: 0%;
+            }
+
+            .navbar a
+            {
+                padding: 25px;
+                text-decoration: none;
+                align-items: center;
+            }
+
+            .section
+            {
+                clear: both;
+                overflow: auto;
+                border-top-color: darkgrey;
+                border-top-style: solid;
+            }
+
+            .footer 
+            {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:darkgray;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+   
+        <div class="name">
+        <h1>John E. Babin Jr.</h1>
+        </div>
+
+        <div class="navbar">
+            <strong>
             <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/index.html" class="active">About Me</a>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>
             <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/portfolio.html">Portfolio</a>
-            
-    </div>
+            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>   
+            </strong> 
+        </div>
 
-    <h1>About Me</h1>
+        <div class= "section">
+            <h1>About Me</h1>
+            <img id="Me" href="#"  height="100px" width="100px">
+            <p>I was born in Slidell, LA. I have a BS in Mechanical Engineering from Louisiana State University. I am also the holder of a certificate of proficency in full stack development from UC Davis.</p>
+            <p>My career goals inclue...</p>
+            <p>My favorite hobbies are playing video games, play sports, and spending time with my family.</p>
+        </div>
 
+        <div class= "footer">
+            <p>Footer</p>
+        </div>
 
-    <img href="#" >
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, expedita minima tenetur ut, laudantium eveniet unde sequi delectus neque tempore assumenda quas itaque voluptatibus dolore maxime, fuga a excepturi officia?</p>
-    <p>Fill Info Here</p>
-    <p>Fill Info Here</p>
-    
-
-    <div class= "footer">
-        <p>Footer</p>
-    </div>
-</body>
+    </body>
 </html>

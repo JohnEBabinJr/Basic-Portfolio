@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,58 +12,80 @@
     -->
 
 
-    <style>
-        .header
-        {
-            padding: 80px;
-            background-color:teal;
-            color:white;
-            text-align: center;
-        }
+        <style>
+            .name
+            {
+                float: left;
+                width: 33%;
+                color: white;
+                background-color: teal;
+                text-align: center;
+                margin-left: 15%;
+        
+            }
+        
+            .navbar 
+            {
+                width:33%;
+                background-color: white;
+                color: darkgray;
+                float: right;
+                text-align: center;
+                margin-right: 0%;
+                font-weight: 30px;
+            }
 
-        .navbar 
-        {
-            overflow: hidden;
-            background-color: #333;
-            position: sticky;
-            position: -webkit-sticky;
-            top: 0;
-        }
+            .navbar a
+            {
+                padding: 25px;
+                text-decoration: none;
+                height: 50px;
+                margin-top: 25px;
+            }
+        
+            .section
+            {
+                clear: both;
+                overflow: auto;
+                border-top-color: darkgrey;
+                border-top-style: solid;
+            }
 
-        .footer 
-        {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color:darkgray;
-            color: white;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+            .footer 
+            {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:darkgray;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
     
-    <div class= "header">
-        <p>Buttons here</p>
-    </div>
+    <body>
 
-    <div class="navbar">
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/index.html">About Me</a>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/portfolio.html" class="active">Portfolio</a>
-            
-    </div>
+        <div class="name">
+        <h1>John E. Babin Jr.</h1>
+        </div>
+
+        
+
+        <div class="navbar">
+            <strong>
+            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/index.html" >About Me</a>
+            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/portfolio.html"class="active">Portfolio</a>
+            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>   
+            </strong> 
+        </div>
 <!--
     need the setplace links for each project
     css all
 
 -->
-
-
-
-    <div class= "footer">
-        <p>Footer</p>
-    </div>
-</body>
+        <div class= "footer">
+            <p>Footer</p>
+        </div>
+    </body>
 </html>
