@@ -1,92 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>About Me</title>
 
-
-        <!--
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--
             Need header with 3 buttons to link to other pages.
             Css the buttons
         -->
-        
-        <style>
-            .name
-            {
-                float: left;
-                width: 33%;
-                color: white;
-                background-color: teal;
-                text-align: center;
-                margin-left: 15%;
+</head>
 
-            }
+<body>
+    <div class="header">
+        <div class="alignment">
+            <div class="name">
+                <h1>John E. Babin Jr.</h1>
+            </div>
 
-            .navbar 
-            {
-                width:33%;
-                background-color: white;
-                color: darkgray;
-                float: right;
-                text-align: center;
-                margin-right: 0%;
-            }
-
-            .navbar a
-            {
-                padding: 25px;
-                text-decoration: none;
-                align-items: center;
-            }
-
-            .section
-            {
-                clear: both;
-                overflow: auto;
-                border-top-color: darkgrey;
-                border-top-style: solid;
-            }
-
-            .footer 
-            {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color:darkgray;
-                color: white;
-                text-align: center;
-            }
-        </style>
-    </head>
-
-    <body>
-   
-        <div class="name">
-        <h1>John E. Babin Jr.</h1>
+            <div class="navbar">
+                <ul>
+                    <li><a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/index.html"
+                            class="active">About Me</a></li>
+                    <li><a
+                            href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/portfolio.html">Portfolio</a>
+                    </li>
+                    <li><a
+                            href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
+    <div class="sectionindex">
+        <h1 style="color: #4aaaa5">About Me</h1>
+        <hr>
+        <img id="Me" href="assets/images/me.jpg" height="100px"
+            width="100px">
+        <p>I was born in Slidell, LA. I have a BS in Mechanical Engineering from Louisiana State University. I am also
+            the holder of a certificate of proficency in full stack development from UC Davis.</p>
+        <p>My career goals inclue...</p>
+        <p>My favorite hobbies are playing video games, play sports, and spending time with my family.</p>
+    </div>
 
-        <div class="navbar">
-            <strong>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/index.html" class="active">About Me</a>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/portfolio.html">Portfolio</a>
-            <a href="file:///C:/Users/johne/Desktop/homeworks/homework-01/basic-portfolio/contact.html">Contact</a>   
-            </strong> 
-        </div>
+    <div class="footer">
+        <p>Copyright@</p>
+    </div>
 
-        <div class= "section">
-            <h1>About Me</h1>
-            <img id="Me" href="#"  height="100px" width="100px">
-            <p>I was born in Slidell, LA. I have a BS in Mechanical Engineering from Louisiana State University. I am also the holder of a certificate of proficency in full stack development from UC Davis.</p>
-            <p>My career goals inclue...</p>
-            <p>My favorite hobbies are playing video games, play sports, and spending time with my family.</p>
-        </div>
+</body>
 
-        <div class= "footer">
-            <p>Footer</p>
-        </div>
-
-    </body>
 </html>
