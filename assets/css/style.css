@@ -7,6 +7,7 @@
     vertical-align: middle;
     border-bottom: 5px solid #cccccc;
     background-color: #ffffff;
+    z-index: 5;
 }
 
 .alignment {
@@ -35,22 +36,28 @@
 }
 
 .navbar li {
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
-    background-color: blue;
+    border-left: 1px solid #777777;
+}
+
+.navbar li:first-child{
+    border-left: none;
 }
 
 .navbar a {
     text-decoration: none;
     align-items: center;
     padding: 10px;
+    display: inline-block;
 }
 
 .sectionindex {
-    clear: both;
-    overflow: auto;
     padding-top: 100px;
     max-width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 200px;
     margin: auto;
     border-color: #dddddd;
     background-color: #ffffff;
@@ -58,11 +65,18 @@
     border-left-style: solid;
     border-right-style: solid;
 }
+#Me{
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
 .sectionportfolio {
     clear: both;
     overflow: auto;
     max-width: 960px;
     padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
     border-color: #dddddd;
     background-color: #ffffff;
@@ -76,6 +90,8 @@
     max-width: 960px;
     margin: auto;
     padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-color: #dddddd;
     background-color: #ffffff;
     border-width: 1px;
@@ -120,4 +136,37 @@ input[type=submit]:hover {
     border-top-style: solid;
     border-width: 5px;
     border-color: #4aaaa5;
+    z-index: 5;
 }
+.text{
+    background-color: #4aaaa5;
+    color:white;
+    position:absolute;
+    width: 100%;
+    bottom: 5%;
+    z-index: 1;
+}
+.box{
+    border: 1px solid;
+    float: left;
+    margin: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+}
+
+.leftcolumn{
+    float: left;
+    max-width: 50%;
+}
+.rightcolumn{
+float: right;
+max-width: 50%;
+}
+
+
+/*
+need to get containers in columns on portfolio
+need text on top of images
+
+*/
